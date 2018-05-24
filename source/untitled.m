@@ -205,7 +205,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 data = [ handles.xdata, handles.ydata]
-csvwrite('file.csv', data)
+csvwrite('../data/file.csv', data)
 
 
 % --- Executes on selection change in listbox1.
